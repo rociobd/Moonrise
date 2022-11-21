@@ -1,0 +1,112 @@
+
+
+@import url(https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;0,400;0,800;1,500&display=swap);
+
+@font-face {
+  font-family:myFont ;
+  src: url(../fonts/CameoSansDEMO.ttf);
+  font-weight: 800;
+  font-display: block;
+
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?328ske');
+  src:  url('../fonts/icomoon.eot?328ske#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?328ske') format('truetype'),
+    url('../fonts/icomoon.woff?328ske') format('woff'),
+    url('../fonts/icomoon.svg?328E3D4EAske#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+body{
+  background-color: rgb(254, 254, 254)
+}
+
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 2;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#portada{
+  background-image: url(../Imagenes/fondo.jpg);
+  max-width: 100%;
+  max-height: 100%;
+  }
+
+body
+{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    
+}
+
+h2
+{
+  font-family: myFont;
+  color: #4a1c5b;
+}
+.navbar-brand
+{
+    font-family: myFont;
+    color: #e0afec9a;
+    font-size: 3em;
+}
+
+.nav-link
+{
+  font-family: 'Raleway', sans-serif;
+  color: #4a1c5b;
+}
+
+
+#formulario
+{
+  background-color: #e0afec9a;
+animation: animacion;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+animation-direction: alternate-reverse;
+}
+
+button
+{
+  border:violet;
+  color:#4a1c5b;
+  background-color:white;
+}
+
+a
+{
+  text-decoration: none;
+}
+
+.icon-menu-icon:before {
+    content: "\e9bf";
+    color: #e8a7ff;
+  }
+
+ img:hover{
+  filter: opacity(50%);
+ }
+ @keyframes animacion {
+  from {background-color: #e8a7ff;}
+  to {background-color: #da68c7;}
+ }
+ footer{ width:100%;
+  height:100px;
+background-color:#e0afec4f;}
